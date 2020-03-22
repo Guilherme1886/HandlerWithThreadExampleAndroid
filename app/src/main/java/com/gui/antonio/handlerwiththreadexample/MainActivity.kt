@@ -1,14 +1,12 @@
 package com.gui.antonio.handlerwiththreadexample
 
-import android.annotation.SuppressLint
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.os.Message
 import android.util.Log
 import android.widget.ArrayAdapter
-import com.gui.antonio.handlerwiththreadexample.handler.MyHandler
+import androidx.appcompat.app.AppCompatActivity
 import com.gui.antonio.handlerwiththreadexample.thread.MyThread
 import kotlinx.android.synthetic.main.activity_main.*
 
